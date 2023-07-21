@@ -26,7 +26,7 @@
                         <div class="navbar-nav container navbar-light">
                             <ul class="list-unstyled d-flex justify-content-center text-uppercase ">
                                 <li class="nav-link px-2 py-2">
-                                    <a class="nav-link {{ Route::currentRouteName() === 'homepage' ? 'fw-bold active' : '' }}" href="{{ route('homepage') }}""  href="{{ route('homepage') }}">
+                                    <a class="nav-link {{ Route::currentRouteName() === 'homepage' ? 'fw-bold active' : '' }}" href="{{ route('homepage') }}"  href="{{ route('homepage') }}">
                                         characters
                                     </a>
                                 </li>
