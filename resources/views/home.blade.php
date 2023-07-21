@@ -20,9 +20,8 @@
     <body>
         @include('partials.header')
         <main>
-            
             <img class="jumbotron" src="{{ Vite::asset('resources/img/jumbotron.jpg') }}">
-                
+            
         </main>
     </body>
 
