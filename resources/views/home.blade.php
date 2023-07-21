@@ -43,26 +43,26 @@
         <footer>
             <div class="bg-icon">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-white d-flex align-items-center px-3 py-3">
+                    <div class="row pad-row">
+                        <div class="col-12 text-white d-flex justify-content-around align-items-center px-3 py-3">
                             <div>
-                                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}">
+                                <img class="img-size" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}">
                                 <span>DIGITAL COMICS</span>
                             </div>
                             <div>
-                                <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}">
+                                <img class="img-size" src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}">
                                 <span>DC MERCHANDISE</span>
                             </div>
                             <div>
-                                <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}">
+                                <img class="img-size" src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}">
                                 <span> SUBSCRIPTION</span>
                             </div>
                             <div>
-                                <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}">
+                                <img class="img-size" src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}">
                                 <span>COMIC SHOP LOCATOR</span>
                             </div>
                             <div>
-                                <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.png') }}">
+                                <img class="img-size" src="{{ Vite::asset('resources/img/buy-dc-power-visa.png') }}">
                                 <span>DC POWER VISA</span>
                             </div>
                         </div>
