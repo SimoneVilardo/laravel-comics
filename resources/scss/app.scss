@@ -41,3 +41,32 @@ li {
     object-fit: cover;
     object-position: top;
 }
+
+.dimension {
+    height: 250px;
+}
+
+button {
+    background-color: #0074e8;
+    color: #fff;
+    padding: 10px 50px;
+    font-weight: 600;
+    font-size: 12px;
+    border: #0074e8;
+    margin-top: 30px;
+}
+
+.position {
+    position: relative;
+}
+
+.bage {
+    background-color: #0282F9;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
