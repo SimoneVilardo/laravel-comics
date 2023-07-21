@@ -5,52 +5,52 @@
                         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}">
                         <div class="navbar-nav container navbar-light">
                             <ul class="list-unstyled d-flex justify-content-center text-uppercase ">
-                                <li class="nav-link px-2 py-2 {{ Route::currentRouteName() === 'homepage' ? 'fw-bold active_li' : '' }}">
+                                <li class="nav-link decoration px-2 py-2 {{ Route::currentRouteName() === 'homepage' ? 'fw-bold active_li' : '' }}">
                                     <a class="nav-link {{ Route::currentRouteName() === 'homepage' ? 'active_a' : '' }}" href="{{ route('homepage') }}"  href="{{ route('homepage') }}">
                                         characters
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         comics
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         movies
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         tv
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         games
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         collectibiles
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         videos
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         fans
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         news
                                     </a>
                                 </li>
-                                <li class="nav-link px-2 py-2">
+                                <li class="nav-link decoration px-2 py-2">
                                     <a class="nav-link">
                                         shop <i class="fa-solid fa-caret-down" style="color: #0074e8;"></i>
                                     </a>

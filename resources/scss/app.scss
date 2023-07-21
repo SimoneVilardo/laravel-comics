@@ -12,7 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-li {
+.decoration {
     cursor: pointer;
     border-bottom: 5px solid transparent;
 
@@ -69,4 +69,75 @@ button {
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+}
+
+.bg-icon {
+    background-color: #0074e8;
+}
+
+.cont {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+
+        .flex {
+            width: 100%;
+            display: flex;
+            background-image: url(../img/dc-logo-bg.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+
+        ul {
+            padding: 40px 0;
+
+            li {
+                line-height: 1.3rem;
+                padding-right: 20px;
+
+                a {
+                    color: gray;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+
+                h4 {
+                    color: white;
+                    margin: 15px 0;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.bg-footer {
+    background-color: #303030;
+
+    button {
+        background-color: #303030;
+        border: 3px solid #0074E8;
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .icone {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            color: #0074E8;
+            padding: 0 15px;
+        }
+
+        a {
+            padding: 0 5px;
+        }
+    }
 }
