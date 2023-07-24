@@ -2,7 +2,6 @@
 
 @section('content')
 
-    <img class="jumbotron" src="{{ Vite::asset('resources/img/jumbotron.jpg') }}">
     <div class="bg-black">
         <div class="container">
             <div class="row py-5 position">
