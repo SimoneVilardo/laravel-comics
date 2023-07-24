@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
+    <div class="blue-space"></div>
+    <div class="container position">
         <div class="row p-5">
             <div class="col-9">
                 <h2 class="text-primary fw-bold text-uppercase">{{ $comic['title']}}</h2>
@@ -20,6 +21,7 @@
                 <p class="fw-bold text-secondary text-end">ADVERTISEMENT</p>
                 <img src="{{ Vite::asset('resources/img/adv.jpg') }}" alt="">
             </div>
+            <img class="dim-show" src="{{ $comic['thumb'] }}">
         </div>
     </div>
     <div class="bg-show">
