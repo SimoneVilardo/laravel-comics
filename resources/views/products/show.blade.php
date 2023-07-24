@@ -26,12 +26,56 @@
     </div>
     <div class="bg-show">
         <div class="container">
-            <div class="row p-5 text-primary">
+            <div class="row p-5 ext-primary-emphasis">
                 <div class="col-6">
                     <h4>Talent</h4>
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <span>Art by:</span>
+                        </div>
+                        <div class="col-8 px-5 text-primary">
+                            @foreach($comic['artists'] as $artist)
+                                <span>{{ $artist }},</span>
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <span>Written by:</span>
+                        </div>
+                        <div class="col-8 px-5 text-primary">
+                            @foreach($comic['writers'] as $writer)
+                                <span>{{ $writer }},</span>
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
                 <div class="col-6">
                     <h4>Specs</h4>
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <span>Series:</span>
+                        </div>
+                        <div class="col-8 px-5 text-primary text-uppercase">
+                            <span>{{ $comic['series'] }}</span>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <span>U.S. Price:</span>
+                        </div>
+                        <div class="col-8 px-5 text-primary text-uppercase">
+                            <span>{{ $comic['price'] }}</span>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-4">
+                            <span>On Sale Date:</span>
+                        </div>
+                        <div class="col-8 px-5 text-primary text-uppercase">
+                            <span>{{ $comic['sale_date'] }}</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
