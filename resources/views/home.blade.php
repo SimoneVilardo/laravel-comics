@@ -7,7 +7,7 @@
             <div class="row py-5 position">
                 @foreach($comics as $id => $comic)
                     <div class="col-2 py-3">
-                        <a href="{{ route('products.show', $id) }}">
+                        <a href="{{ route('comics.show', $id) }}">
                             <div class="card bg-black">
                                 <img class="dimension" src="{{ $comic['thumb'] }}">
                                 <p class="text-white">{{ $comic['series'] }}</p>

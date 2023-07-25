@@ -18,20 +18,16 @@ Route::get('/', function () {
     return view('home', compact('comics')); 
 })->name('homepage');
 
-// Route::get('/products', function(){
-//     $comics = config('db.comics');
-//     return view('products.index', compact('products'));
-// })->name('products');
 
-Route::get('/products/{comic}', function($id){
+Route::get('/comics/{comic}', function($id){
 
     $comics = config('db.comics');
     if($id >=0 && $id < count($comics)){
         $comic = $comics[$id];
-        return view('products.show', compact('comic'));
+        return view('comics.show', compact('comic'));
     }
     else{
         abort('404');
     }
 
-})->name('products.show');
+})->name('comics.show');
